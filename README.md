@@ -35,12 +35,27 @@ After updating the credentials on the `connect_dnac.py`, run the  `get_interface
 Here is the test using the DevNet Sandbox
 
 ### Obs: 
-The reason that it shows only 0 on the sandbox because the hosts are connected using the 'TenGigabit" interfaces but we are only checking for 'Gigabit'.
+The reason that it shows only interfaces down on the sandbox because the hosts are connected using the 'TenGigabit" interfaces but we are only checking for 'Gigabit'.
 
+The code that filters by GigabitEthernet
 
+![image](https://user-images.githubusercontent.com/25211596/97790863-d78e2100-1ba2-11eb-91b5-3020b7c90e7c.png)
 
-![image](https://user-images.githubusercontent.com/25211596/97783058-96c6e580-1b6b-11eb-84d2-859c9c7404ec.png)
+The result:
+
+![image](https://user-images.githubusercontent.com/25211596/97790814-546ccb00-1ba2-11eb-9b23-6996c816f0f5.png)
+
+If we change our Script to look for `TenGigabitEthernet` 
+
+![image](https://user-images.githubusercontent.com/25211596/97790833-8c740e00-1ba2-11eb-8148-51265f6a29db.png)
+
+We will receive the following output
+
+![image](https://user-images.githubusercontent.com/25211596/97790844-9dbd1a80-1ba2-11eb-8687-bfffdb78b5a8.png)
 
 ## Next Steps
+
+Its not perfect and has lots of room for improvement but we can achieve our primary goal
+
 * Gather all interfaces and displays the types on the table
 * User selection type of device, Access, Border or Core
