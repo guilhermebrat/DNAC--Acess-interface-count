@@ -5,7 +5,7 @@ Note that the code is still hard-coded to get only equipement that the role is "
 ## Use Case Description
 
 This script was written on my use case, after the company has moved to a new building we lost track how many interfaces were used regarding the number of network jacks installed.
-The idea is to be easily and fast way to get which switches has interfaces available.
+The idea is to easily way to get which switches has interfaces available without checking each device and avoiding spreadsheets.
 
 ## Installation
 The following libraries are used in this script:
