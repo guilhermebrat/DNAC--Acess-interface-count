@@ -1,4 +1,4 @@
-# DNAC--Acess-interface-count
+# DNAC-Acess-interface-count
 The objective of this script is to get the status of Gigabit all user interfaces in the DNA-C infrastructure.
 The script is hard-coded to get only equipement with "Access" role.
 
