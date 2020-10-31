@@ -22,7 +22,7 @@ The librarie `connect_dnac` is a second file used to store the username/password
 
 ## Configuration
 The script has two files, connect_dnac.py and get_interfaces.py
-`connect_dnac.py` :dnac-c url, username and password
+`connect_dnac.py` contains the : dna url, username and password
   
   Before you start to use it, you need to change for the credentials of you DNA-C.
   
