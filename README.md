@@ -1,5 +1,5 @@
 # DNAC--Acess-interface-count
-The objective of this script is to get the status of all user interfaces in the DNA-C infrastructure.
+The objective of this script is to get the status of all user interfaces(Gigabit) in the DNA-C infrastructure.
 Note that the code is still hard-coded to get only equipement that the role is "Access"
 
 ## Use Case Description
