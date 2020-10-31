@@ -28,3 +28,19 @@ The script has two files, connect_dnac.py and get_interfaces.py
   
   
 ![connect_dna](https://user-images.githubusercontent.com/25211596/97782564-8f520d00-1b68-11eb-81a4-9af60a57939e.PNG)
+
+## Usage
+After updating the credentials on the `connect_dnac.py`, run the  `get_interfaces.py`
+
+Here is the test using the DevNet Sandbox
+
+### Obs: 
+The reason that it shows only 0 on the sandbox because the hosts are connected using the 'TenGigabit" interfaces but we are only checking for 'Gigabit'.
+
+
+
+![image](https://user-images.githubusercontent.com/25211596/97783058-96c6e580-1b6b-11eb-84d2-859c9c7404ec.png)
+
+## Next Steps
+* Gather all interfaces and displays the types on the table
+* User selection type of device, Access, Border or Core
