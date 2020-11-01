@@ -63,3 +63,5 @@ Thanks!
 
 Guilherme Gianotto Bratfish
 guilhermebrat@gmail.com
+
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/guilhermebrat/DNAC-Acess-interface-count)
