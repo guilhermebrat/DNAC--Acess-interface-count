@@ -20,7 +20,7 @@ The librarie `connect_dnac` is a second file used to store the username/password
 
 Cisco DNA-C SandBox URL: https://sandboxdnac.cisco.com
 
-Credentials and further detail about the Lab environment available at: https://devnetsandbox.cisco.com/
+
 
 ![capture2](https://user-images.githubusercontent.com/25211596/97782733-844bac80-1b69-11eb-9e48-6260dda1cd71.PNG)
 
@@ -28,6 +28,8 @@ Credentials and further detail about the Lab environment available at: https://d
 
 * Always-On Cisco DNA Center
 * Version: 1.3.1.6
+
+Credentials and further detail about the Lab environment available at: https://devnetsandbox.cisco.com/
 
 ## Configuration
 The script has two files: connect_dnac.py and get_interfaces.py
