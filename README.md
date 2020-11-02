@@ -24,9 +24,7 @@ Credentials and further detail about the Lab environment available at: https://d
 
 ![capture2](https://user-images.githubusercontent.com/25211596/97782733-844bac80-1b69-11eb-9e48-6260dda1cd71.PNG)
 
-## Lab info
-
-Lab used:
+## DevNet Sandbox
 
 * Always-On Cisco DNA Center
 * Version: 1.3.1.6
