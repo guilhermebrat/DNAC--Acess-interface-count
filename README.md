@@ -18,14 +18,13 @@ The following libraries are used in this script:
 
 The librarie `connect_dnac` is a second file used to store the username/password/dna-c ip address
 
-Cisco`s DNA-C SandBox URL: https://sandboxdnac.cisco.com
+Cisco DNA-C SandBox URL: https://sandboxdnac.cisco.com
 
+Credentials and further detail about the Lab environment available at: https://devnetsandbox.cisco.com/
 
 ![capture2](https://user-images.githubusercontent.com/25211596/97782733-844bac80-1b69-11eb-9e48-6260dda1cd71.PNG)
 
 ## Lab info
-
-Credentials and further detail about the Lab environment available at: https://devnetsandbox.cisco.com/
 
 Lab used:
 
