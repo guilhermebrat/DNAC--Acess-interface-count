@@ -5,18 +5,32 @@ The script is hard-coded to get only equipement with "Access" role.
 ## Use Case Description
 My company moved to a new building, which made the team lose track of how many interfaces were being used. Hence, the objective of the script is to easily confirm which switches have available interfaces, without having to check for each device. Besides that, we could avoid spreadsheets that were being used for documentation, that were not always kept up to date.
 
-## Installation
+## Requirements
 The following libraries are used in this script:
+
+
+* `pip install requests`
+* `pip install regex`
+* `pip install dnacentersdk`
+* `pip install prettytable`
+
+
 
 The librarie `connect_dnac` is a second file used to store the username/password/dna-c ip address
 
- * json
- * time
- * calendar
- * prettytable
- * re
- 
+Cisco`s DNA-C SandBox URL: https://sandboxdnac.cisco.com
+
+
 ![capture2](https://user-images.githubusercontent.com/25211596/97782733-844bac80-1b69-11eb-9e48-6260dda1cd71.PNG)
+
+## Lab info
+
+Credentials and further detail about the Lab environment available at: https://devnetsandbox.cisco.com/
+
+Lab used:
+
+* Always-On Cisco DNA Center
+* Version: 1.3.1.6
 
 ## Configuration
 The script has two files: connect_dnac.py and get_interfaces.py
